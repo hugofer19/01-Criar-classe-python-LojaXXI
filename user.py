@@ -17,10 +17,10 @@ class User:
         self.morada = ''
 
     def herokudb(self):
-        Host = 'ec2-54-74-14-109.eu-west-1.compute.amazonaws.com'
-        Database = 'd8i5e964chmjgj'
-        User = 'psgtekdhofssij'
-        Password = '04e85cf222296a32c40d9354d7aa92d5b1a7c961a994f0f5c67faa9f1941e46c'
+        Host = 'ec2-52-209-134-160.eu-west-1.compute.amazonaws.com'
+        Database = 'dav5i22li2jrrj'
+        User = 'itmuvbfzedxqkj'
+        Password = 'cdbd5af7afc2a1330589b97900c5e29dbf9e334a666667fb5a7ab5f42e349f00'
         return psycopg2.connect(host=Host, database=Database, user=User, password=Password, sslmode='require')
 
     def gravar(self, v1, v2, v3):
